@@ -13,7 +13,7 @@ import {
 
 const form = document.querySelector('.form');
 const input = form.querySelector('.search-images-input');
-let loadMoreBtn = document.querySelector('.load-more-btn');
+const loadMoreBtn = document.querySelector('.load-more-btn');
 
 let currentQuery = '';
 let currentPage = 1;
