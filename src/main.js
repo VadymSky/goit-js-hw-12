@@ -12,7 +12,7 @@ import {
 } from './js/render-functions.js';
 
 const form = document.querySelector('.form');
-let input = form.querySelector('.search-images-input');
+const input = form.querySelector('.search-images-input');
 let loadMoreBtn = document.querySelector('.load-more-btn');
 
 let currentQuery = '';
